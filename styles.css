@@ -6,6 +6,10 @@ h1{color: lightskyblue;}
     padding: 20px;
     margin: 20px;
 }
-
-
 footer{position:fixed; bottom: 0px;}
+.col{border: 1px solid whitesmoke}
+.col-8{border: 1px solid whitesmoke}
+.btn{
+    background-color: grey;
+    border: grey;
+}
