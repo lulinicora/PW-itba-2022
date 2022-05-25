@@ -85,6 +85,8 @@ let siguiente = numero => numero+1
 
 */
 /*1*/
+
+
 function calcularCosto (producto1, productoo2, producto3)
 let costoTotal = 0;
 producto1 = 50;
@@ -100,3 +102,10 @@ if (proucto1 == "vidrio" || producto2 == "vidrio" || producto3 == "vidrio"){
     costoTtoal = costoTotal + 150
 }
 mostrar(calcularCosto("madera", "madera", "vidrio"))
+
+localStorage.setItem()
+
+function guardarData(){
+    let value =document.getElementById("nombreIngresado").value
+    localStorage.setItem("nameuser", value)
+}

@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Manejo de DOM</title>
 </head>
 <body>
-    
+    <header>
+    </header>
+    <main>
+        <div id="primera-parte">
+            <h1>El Titular</h1>
+            <p>Este texto es <strong>strong</strong></p>
+        </div>
+        <div id="segunda-perte">
+            <p id="pConId">Id</p>
+            <p id="pConClass">Class</p>
+            <p>Tag</p>
+        </div>
+        <div>
+            <h1 id="titular"> Web Titular</h1>
+            <input type="button" onclick="cambiarTitular()" value="Cambiar Texto">
+        </div>
+        <div id="vacio">
+            <input type="button" onclick="hacerAparecer()" value="Revelar Información">
+        </div>
+    </main>
+        <ul>
+            <li class = "paises">ar</li>
+            <li class = "paises">ur</li>
+            <li class = "paises">chi</li>
+        </ul>
+        <input type="button" value="Borrar País" onclick="borrarPais()">
+        <form action="">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre"><br>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad">
+            <input type="button" value="Sumar edad" onclick="sumarEdad()"><br>
+            <input type="checkbox" name="bases" id="bases">
+            <label for="bases">Comprendió Bases y Condiciones</label>
+        </form>
+    <footer></footer>
 </body>
+<script>
+    console.log("soy interno")
+</script>
+<script src="main.js"></script>
 </html>

@@ -37,8 +37,13 @@
           </div>
     </div>
    
-    
-    
+    <label for="name">Tu nombre:</label>
+    <input name="name" id="nombreIngresado" type="text">
+    <script src="localstorage.js" oninput="guardarData()"> 
+    </script>
+    <input type="button" value="guardar variabe" onclick="guardarData()">
+    <input type="button" onclick="borrarData()" value="borrar">
+    <input type="button" onclick="borrarUnDato()" value="borrar un solo nombre">
 
 </body>
 </html>
